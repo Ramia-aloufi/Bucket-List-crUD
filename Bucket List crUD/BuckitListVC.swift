@@ -48,6 +48,13 @@ class BuckitListVC: UITableViewController,ItemDelegate {
         secondVC.index = indexPath.row
         navigationController?.pushViewController(secondVC, animated: true)
     }
+    override func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+                        let secondVC = storyboard?.instantiateViewController(identifier: "secondVC") as! AddItemViewController
+        secondVC.delegate  = self
+        secondVC.newitem = items[indexPath.row]
+        secondVC.index = indexPath.row
+        navigationController?.pushViewController(secondVC, animated: true)
+    }
     
     override func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
         let delete = UIContextualAction(style: .destructive, title: "delete") { (action, view, clousour) in
