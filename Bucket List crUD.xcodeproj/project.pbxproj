@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		1131B3522767C49100FD9842 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131B3512767C49100FD9842 /* AppDelegate.swift */; };
 		1131B3542767C49100FD9842 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131B3532767C49100FD9842 /* SceneDelegate.swift */; };
-		1131B3562767C49100FD9842 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131B3552767C49100FD9842 /* ViewController.swift */; };
+		1131B3562767C49100FD9842 /* BuckitListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1131B3552767C49100FD9842 /* BuckitListVC.swift */; };
 		1131B3592767C49100FD9842 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1131B3572767C49100FD9842 /* Main.storyboard */; };
 		1131B35B2767C4A500FD9842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1131B35A2767C4A500FD9842 /* Assets.xcassets */; };
 		1131B35E2767C4A500FD9842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1131B35C2767C4A500FD9842 /* LaunchScreen.storyboard */; };
+		1164F03C27688756007A30DD /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1164F03B27688756007A30DD /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1131B34E2767C49100FD9842 /* Bucket List crUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bucket List crUD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1131B3512767C49100FD9842 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1131B3532767C49100FD9842 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1131B3552767C49100FD9842 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1131B3552767C49100FD9842 /* BuckitListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuckitListVC.swift; sourceTree = "<group>"; };
 		1131B3582767C49100FD9842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1131B35A2767C4A500FD9842 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1131B35D2767C4A500FD9842 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1131B35F2767C4A500FD9842 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1164F03B27688756007A30DD /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +60,12 @@
 			children = (
 				1131B3512767C49100FD9842 /* AppDelegate.swift */,
 				1131B3532767C49100FD9842 /* SceneDelegate.swift */,
-				1131B3552767C49100FD9842 /* ViewController.swift */,
+				1131B3552767C49100FD9842 /* BuckitListVC.swift */,
 				1131B3572767C49100FD9842 /* Main.storyboard */,
 				1131B35A2767C4A500FD9842 /* Assets.xcassets */,
 				1131B35C2767C4A500FD9842 /* LaunchScreen.storyboard */,
 				1131B35F2767C4A500FD9842 /* Info.plist */,
+				1164F03B27688756007A30DD /* AddItemViewController.swift */,
 			);
 			path = "Bucket List crUD";
 			sourceTree = "<group>";
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1131B3562767C49100FD9842 /* ViewController.swift in Sources */,
+				1131B3562767C49100FD9842 /* BuckitListVC.swift in Sources */,
+				1164F03C27688756007A30DD /* AddItemViewController.swift in Sources */,
 				1131B3522767C49100FD9842 /* AppDelegate.swift in Sources */,
 				1131B3542767C49100FD9842 /* SceneDelegate.swift in Sources */,
 			);
